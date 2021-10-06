@@ -1,0 +1,20 @@
+# script for launching reddit posts by id in the browser
+launch(){
+        open https://www.reddit.com/"id"
+}
+
+
+export PATH="$HOME/.bin:$PATH"
+export AWS_SDK_LOAD_CONFIG=true
+export PATH="$HOME/google-cloud-sdk/bin:$PATH"
+export PATH=$PATH:/Users/audrey.lorberfeld/Library/Python/3.9/bin
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/audrey.lorberfeld/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/audrey.lorberfeld/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/audrey.lorberfeld/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/audrey.lorberfeld/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+
+PS1="%d/💞 "
